@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/devicepilot/warlock",
   "dependencies": {
-    "node-cache": "^4.1.1",
     "uuid": "^2.0.1"
   },
   "devDependencies": {
     "async": "^1.5.1",
+    "node-cache": "^4.1.1",
     "mocha": "^2.3.4",
     "should": "^8.0.2"
   }

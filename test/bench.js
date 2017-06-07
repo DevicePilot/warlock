@@ -1,7 +1,7 @@
-var redis = require('./setup/redisConnection');
-var warlock = require('../lib/warlock')(redis);
+var cache = require('./setup/cacheConnection');
+var warlock = require('../lib/warlock')(cache);
 var async = require('async');
-require('./setup/redisFlush');
+require('./setup/cacheFlush');
 
 describe('benchmark', function() {
   it('lock', function(done) {
